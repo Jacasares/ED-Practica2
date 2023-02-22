@@ -25,6 +25,11 @@ public class TestBanco {
 		consultarSaldo(cuentaAntonio, cuentaBeatriz);
 	}
 
+	/**
+	 * metodo para consultar saldos
+	 * @param cuentaAntonio
+	 * @param cuentaBeatriz
+	 */
 	private static void consultarSaldo(Cuenta cuentaAntonio, Cuenta cuentaBeatriz) {
 		/* Antonio y Beatriz consultan el saldo */
 		System.out.println("La cuenta de " + cuentaAntonio.getCliente().getNombre() + " tiene "
